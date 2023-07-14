@@ -140,15 +140,15 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(145, 187, 241);
   scale(1);
   fill(0);
-  textSize(20);
+  textSize(40);
   textAlign(LEFT, CENTER);
   text("What it takes to win a premier league", 30, 40);
-  textSize(12);
+  textSize(16);
   textAlign(LEFT, CENTER);
-  text(blurb, 30, -130, 550, 500);
+  text(blurb, 30, -120, 550, 500);
   chart01.render();
   chart01.updateVals();
   chart01.posX = 120;
